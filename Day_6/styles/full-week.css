@@ -1,0 +1,30 @@
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  color: rgb(71, 62, 62);
+  margin: 12px;
+}
+a{
+    padding: 12px;
+    background-color: rgb(167, 1, 78);
+    color: white;
+    border: 1px solid rgb(167, 1, 78);
+    border-radius: 4px;
+    font-size: 24px;
+}
+a:hover{
+    text-decoration: none;
+    background-color: rgb(189, 12, 90);
+}
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
+ol {
+  list-style: none;
+}
+li{
+    margin: 32px;
+    background-color: rgb(223, 136, 124);
+    border-radius: 6px;
+}
