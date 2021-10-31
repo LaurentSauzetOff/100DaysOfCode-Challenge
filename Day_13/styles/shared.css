@@ -1,15 +1,16 @@
 body {
   text-align: center;
   background-color: rgb(233, 215, 207);
+  color: rgb(83, 75, 75);
   margin: 50px;
 }
 
-h1{
-  font-family: 'Oswald', sans-serif;
+h1 {
+  font-family: "Oswald", sans-serif;
 }
 p {
-  font-family: 'Fira Sans', sans-serif;
- 
+  font-family: "Fira Sans", sans-serif;
+  font-size: 24px;
 }
 
 #todays-challenge {
@@ -18,7 +19,7 @@ p {
   font-size: 52px;
 }
 a {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   color: rgb(167, 1, 78);
   text-decoration: none;
 }
