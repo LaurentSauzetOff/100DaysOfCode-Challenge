@@ -53,6 +53,7 @@
 }
 #destinations{
   display: flex;
+  justify-content: space-evenly;
   font-family: 'Quicksand', sans;
   width: 90%;
   margin: auto;
