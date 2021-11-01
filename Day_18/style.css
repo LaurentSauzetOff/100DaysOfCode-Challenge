@@ -44,6 +44,7 @@
   background-color: rgb(255, 238, 0);
 }
 #highlights h2{
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   text-align: center;
   font-size: 40px;
@@ -52,6 +53,7 @@
 }
 #destinations{
   display: flex;
+  font-family: 'Quicksand', sans;
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
