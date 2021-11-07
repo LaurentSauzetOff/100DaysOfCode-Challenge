@@ -7,8 +7,8 @@ html {
   --color-primary-300: rgb(167, 226, 255);
   --color-primary-700: rgb(0, 170, 255);
 
-  --size-1 : 18px;
-  --size-5 : 50px;
+  --size-1: 18px;
+  --size-5: 50px;
 
   background-color: var(--color-grey-100);
   font-family: "krub", sans-serif;
@@ -20,10 +20,11 @@ html {
   width: 350px;
   height: 50px auto;
   box-shadow: 3px 3px 10px rgb(201, 200, 200);
+  transition: transform 0.5s ease-out;
 }
 
-.card-container:hover{
-    transform: scale(1.05);
+.card-container:hover {
+  transform: scale(1.05);
 }
 
 h1 {
@@ -33,6 +34,9 @@ h1 {
   text-align: left;
   padding: 30px 50px 0 50px;
   margin: 10px 0;
+}
+h1:hover {
+  transform: scale(1.05);
 }
 .card-info {
   color: rgb(134, 134, 134);
@@ -96,7 +100,7 @@ h1 {
 }
 
 .button:hover {
-  color: var(--color-primary-700);
-  background-color: aliceblue;
+  color: white;
+  background-color: var(--color-primary-700);
   border-radius: 2px solid rgb(255, 255, 255);
 }
