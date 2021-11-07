@@ -4,4 +4,9 @@ body {
 }
 input {
   width: 20rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+button{
+    display: block;
 }
