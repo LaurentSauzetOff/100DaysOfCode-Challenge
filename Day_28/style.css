@@ -3,6 +3,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1{
+  color: white;
+  text-align: center;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 form {
   width: 30rem;
   margin: 3rem auto;
