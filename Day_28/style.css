@@ -15,7 +15,8 @@ label {
   display: block;
 }
 input,
-textarea {
+textarea,
+select {
   width: 100%;
   display: block;
   margin-bottom: 1rem;
@@ -25,7 +26,8 @@ textarea {
   padding: 0.25rem;
   color: rgb(61, 58, 58);
 }
-input:focus {
+input:focus,
+textarea:hover {
   background-color: rgb(219, 190, 253);
   color: rgb(39, 3, 82);
   border-color: rgb(39, 3, 82);
