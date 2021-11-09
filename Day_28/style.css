@@ -37,6 +37,9 @@ select {
   padding: 0.25rem;
   color: rgb(61, 58, 58);
 }
+textarea{
+  resize: vertical;
+}
 input:focus,
 textarea:hover {
   background-color: rgb(219, 190, 253);
