@@ -17,6 +17,15 @@
     <form action="/" method="GET">
       <label for="username">Your name</label>
       <input type="text" name="user-name" id="username" />
+
+      <label for="usermessage">Your message</label>
+      <textarea
+        name="user-message"
+        id="usermessage"
+        cols="30"
+        rows="10"
+      ></textarea>
+
       <label for="useremail">Your email address</label>
       <input type="email" name="user-email" id="useremail" />
       <label for="userage">Your age</label>
@@ -45,15 +54,27 @@
         <label for="verify-email">Via an email</label>
       </div>
       <div class="form-control-inline">
-        <input type="checkbox" name="" id="agree-terms" name="terms">
+        <input type="checkbox" name="" id="agree-terms" name="terms" />
         <label for="agree-terms">Agree to terms ?</label>
       </div>
       <div class="form-control-inline">
-        <input type="checkbox" name="" id="contact-email" name="contact" value="email">
+        <input
+          type="checkbox"
+          name=""
+          id="contact-email"
+          name="contact"
+          value="email"
+        />
         <label for="contact-email">Contact me via email</label>
       </div>
       <div class="form-control-inline">
-        <input type="checkbox" name="" id="contact-phone" name="contact" value="phone">
+        <input
+          type="checkbox"
+          name=""
+          id="contact-phone"
+          name="contact"
+          value="phone"
+        />
         <label for="contact-phone">Contact me via phone</label>
       </div>
       <button>Submit</button>
