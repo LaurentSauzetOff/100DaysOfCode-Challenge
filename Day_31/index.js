@@ -10,5 +10,6 @@ let job = {
   place: "Lorient",
   salary: 50000,
 };
-alert(hobbies[0]);
-alert(job.title);
+
+let adultYears = age - 18;
+alert(adultYears)
