@@ -12,4 +12,9 @@ let job = {
 };
 
 let adultYears = age - 18;
-alert(adultYears)
+alert(adultYears);
+
+age = 45;
+adultYears = age - 18;
+
+alert(adultYears);
