@@ -13,8 +13,8 @@ let job = {
 
 let adultYears;
 
-function calculateAdultYears(){
-  adultYears = age - 18
+function calculateAdultYears() {
+  adultYears = age - 18;
 }
 
 calculateAdultYears();
