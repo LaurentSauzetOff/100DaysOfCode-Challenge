@@ -11,18 +11,17 @@ let job = {
   salary: 50000,
 };
 
-let adultYears;
+let totalAdultYears;
 
-function calculateAdultYears() {
-  adultYears = age - 18;
+function calculateAdultYears(userAge) {
+  result = userAge - 18;
+  return result;
 }
 
-calculateAdultYears();
-alert(adultYears);
+totalAdultYears = calculateAdultYears(age);
+alert(totalAdultYears);
 
 age = 45;
-calculateAdultYears();
+totalAdultYears = calculateAdultYears(age);
 
-alert(adultYears);
-
-function coco()
+alert(totalAdultYears);
