@@ -1,4 +1,4 @@
-let paragraphElement = document.querySelector('p');
+/* let paragraphElement = document.querySelector('p');
 
 function changeParagraphText(event) {
   paragraphElement.textContent = 'Clicked!';
@@ -18,4 +18,10 @@ function retrieveUserInput(event) {
   // console.log(event);
 }
 
-inputElement.addEventListener('input', retrieveUserInput);
+inputElement.addEventListener('input', retrieveUserInput); */
+
+let anchorElement = document.getElementById("external-link");
+anchorElement = "https://google.com";
+
+anchorElement = document.querySelector("a");
+anchorElement = "https://academind.com";
