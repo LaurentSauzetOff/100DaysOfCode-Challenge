@@ -49,3 +49,11 @@ let firstH1Element = document.querySelector("h1");
 // 2. remove it
 
 firstH1Element.remove();
+
+// Move elements
+
+firstParagraph.parentElement.append(firstParagraph);
+
+// innerHTML propriété
+
+firstParagraph.innerHTML = 'Hi ! this is <strong>important !</strong> ';
