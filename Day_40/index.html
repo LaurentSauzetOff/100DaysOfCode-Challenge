@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jeu du Morpion</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Jouer au Morpion</h1>
+      <p>
+        Codé avec HTML, CSS, Vanilla JavaScript et une tonne d'amour
+        !!!!!!!!!!!!!
+      </p>
+    </header>
+    <main>
+      <aside>
+        <h2>Choisissez votre nom</h2>
+        <form>
+          <div>
+            <label for="playername">Nom du joueur</label>
+            <input type="text" name="username" id="playername" />
+          </div>
+          <div>
+            <button type="button">Annuler</button>
+            <button type="submit">Enregistrer</button>
+          </div>
+        </form>
+      </aside>
+      <section id="game-configuration">
+        <ol>
+          <li>
+            <article>
+              <h2>Joueur 1</h2>
+              <h3>JOUEUR UN</h3>
+              <p>X</p>
+              <button>Modifier</button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h2>Joueur 2</h2>
+              <h3>JOUEUR DEUX</h3>
+              <p>O</p>
+              <button>Modifier</button>
+            </article>
+          </li>
+        </ol>
+        <button>Démarrer une partie !</button>
+      </section>
+      <section id="active-game">
+          <article>
+              <h3>Tu as gagné(e), <span id="winner-game">PLAYER NAME</span> !</h3>
+              <p>Cliquez sur "Démarrer une partie" pour... démarrer une partie...</p>
+          </article>
+          <p>C'est votre tour <span id="active-player-name">PLAYER NAME</span> !</p>
+        <ol>
+          <li></li>
+          <li></li>
+          <li></li>
+
+          <li></li>
+          <li></li>
+          <li></li>
+
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </section>
+    </main>
+  </body>
 </html>
