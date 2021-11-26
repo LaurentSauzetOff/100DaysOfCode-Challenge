@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jeu du Morpion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <header>
+    <header id="main-header">
       <h1>Jouer au Morpion</h1>
       <p>
         Codé avec HTML, CSS, Vanilla JavaScript et une tonne d'amour
@@ -23,8 +30,8 @@
             <input type="text" name="username" id="playername" />
           </div>
           <div>
-            <button type="button">Annuler</button>
-            <button type="submit">Enregistrer</button>
+            <button type="button" class="btn btn-alt">Annuler</button>
+            <button type="submit" class="btn">Enregistrer</button>
           </div>
         </form>
       </aside>
@@ -35,7 +42,7 @@
               <h2>Joueur 1</h2>
               <h3>JOUEUR UN</h3>
               <p>X</p>
-              <button>Modifier</button>
+              <button class="btn btn-alt">Modifier</button>
             </article>
           </li>
           <li>
@@ -43,18 +50,22 @@
               <h2>Joueur 2</h2>
               <h3>JOUEUR DEUX</h3>
               <p>O</p>
-              <button>Modifier</button>
+              <button class="btn btn-alt">Modifier</button>
             </article>
           </li>
         </ol>
-        <button>Démarrer une partie !</button>
+        <button class="btn">Démarrer une partie !</button>
       </section>
       <section id="active-game">
-          <article>
-              <h3>Tu as gagné(e), <span id="winner-game">PLAYER NAME</span> !</h3>
-              <p>Cliquez sur "Démarrer une partie" pour... démarrer une partie...</p>
-          </article>
-          <p>C'est votre tour <span id="active-player-name">PLAYER NAME</span> !</p>
+        <article>
+          <h3>Tu as gagné(e), <span id="winner-game">PLAYER NAME</span> !</h3>
+          <p>
+            Cliquez sur "Démarrer une partie" pour... démarrer une partie...
+          </p>
+        </article>
+        <p>
+          C'est votre tour <span id="active-player-name">PLAYER NAME</span> !
+        </p>
         <ol>
           <li></li>
           <li></li>
