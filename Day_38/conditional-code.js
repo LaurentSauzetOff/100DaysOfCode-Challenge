@@ -4,3 +4,19 @@ if (myName === "Laurent") {
 } else {
   console.log("hello");
 }
+
+let isLoggedIn = false;
+
+if (isLoggedIn === true) {
+  console.log("User is logged in !");
+} else if (!isLoggedIn === true) {
+  console.log("User is not logged in !");
+} else {
+  console.log("Game over !");
+}
+
+const enteredUserName = "";
+
+if (enteredUserName) {
+  console.log('Input is valid')
+}
