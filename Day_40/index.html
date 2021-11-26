@@ -12,8 +12,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/overlays.css">
+    <link rel="stylesheet" href="styles/configuration.css">
   </head>
   <body>
+      <div id="backdrop"></div>
     <header id="main-header">
       <h1>Jouer au Morpion</h1>
       <p>
@@ -22,10 +25,10 @@
       </p>
     </header>
     <main>
-      <aside>
+      <aside class="modal" id="config-overlay">
         <h2>Choisissez votre nom</h2>
         <form>
-          <div>
+          <div class="form-control">
             <label for="playername">Nom du joueur</label>
             <input type="text" name="username" id="playername" />
           </div>
@@ -41,7 +44,7 @@
             <article>
               <h2>Joueur 1</h2>
               <h3>JOUEUR UN</h3>
-              <p>X</p>
+              <p class="player-symbol">X</p>
               <button class="btn btn-alt">Modifier</button>
             </article>
           </li>
@@ -49,7 +52,7 @@
             <article>
               <h2>Joueur 2</h2>
               <h3>JOUEUR DEUX</h3>
-              <p>O</p>
+              <p class="player-symbol">O</p>
               <button class="btn btn-alt">Modifier</button>
             </article>
           </li>
