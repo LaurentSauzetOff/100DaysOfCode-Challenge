@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="styles/overlays.css">
     <link rel="stylesheet" href="styles/configuration.css">
     <link rel="stylesheet" href="styles/game.css">
+    <script src="scripts/config.js" defer></script>
+    <script src="scripts/game.js" defer></script>
+    <script src="scripts/app.js" defer></script>
   </head>
   <body>
       <div id="backdrop"></div>
@@ -46,7 +49,7 @@
               <h2>Joueur 1</h2>
               <h3>JOUEUR UN</h3>
               <p class="player-symbol">X</p>
-              <button class="btn btn-alt">Modifier</button>
+              <button class="btn btn-alt" id="edit-player-1-btn">Modifier</button>
             </article>
           </li>
           <li>
@@ -54,7 +57,7 @@
               <h2>Joueur 2</h2>
               <h3>JOUEUR DEUX</h3>
               <p class="player-symbol">O</p>
-              <button class="btn btn-alt">Modifier</button>
+              <button class="btn btn-alt" id="edit-player-2-btn">Modifier</button>
             </article>
           </li>
         </ol>
