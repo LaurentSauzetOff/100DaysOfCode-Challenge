@@ -17,7 +17,21 @@ function switchPlayer() {
 }
 
 function selectGameField(event) {
-  event.target.textContent = players[activePlayer].symbol;
-  event.target.classList.add("disabled");
+  const selectedField = event.target;
+
+  const SelectColumn = selectedField.dataset.col - 1;
+  const SelectRow = selectedField.dataset.row - 1;
+
+  if (gameData[SelectRow][SelectColumn] > 0) {
+    alert('Sélectionnez un champs vide !')
+    return;
+  } 
+
+  selectedField.textContent = players[activePlayer].symbol;
+  selectedField.classList.add("disabled");
+
+
+  gameData[SelectRow][SelectColumn] = activePlayer + 1;
+
   switchPlayer();
 }
