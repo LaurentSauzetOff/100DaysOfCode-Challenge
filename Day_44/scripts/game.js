@@ -3,7 +3,7 @@ function resetGameStatus() {
   currentRound = 1;
   gameIsOver = false;
   gameOverElement.firstElementChild.innerHTML =
-    'You won, <span id="winner-name">PLAYER NAME</span>!';
+    'Vous avez gagné, <span id="winner-name">PLAYER NAME</span> !';
   gameOverElement.style.display = "none";
 
   let gameBoardIndex = 0;
