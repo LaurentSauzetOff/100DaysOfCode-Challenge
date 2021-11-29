@@ -72,3 +72,12 @@
     color: rgb(47, 4, 82);
     margin: 0.5rem 0;
 }
+
+@media screen and (max-width: 345px) {
+    #game-configuration ol{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}

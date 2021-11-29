@@ -37,3 +37,14 @@ body {
   background-color: rgb(230, 201, 247);
   border-color: transparent;
 }
+
+@media screen and (max-width: 461px) {
+  body{
+    width: 100%
+  }
+  #main-header p{
+    overflow-wrap: break-word;
+  }
+}
+
+
