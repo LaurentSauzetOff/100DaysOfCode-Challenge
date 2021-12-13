@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "name": "sauzet",
+    "address": "192 rue de bourgogne",
+    "cuisine": "Français",
+    "website": "https://mytest.com",
+    "description": "Hein ?"
+  },
+  {
+    "name": "sauzet",
+    "address": "192 rue de bourgogne",
+    "cuisine": "Français",
+    "website": "https://mytest.com",
+    "description": "Because."
+  },
+  {
+    "name": "Maman",
+    "address": "202 rue de bourgogne",
+    "cuisine": "Français",
+    "website": "https://mytest2.com",
+    "description": "Because."
+  }
+]
